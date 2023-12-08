@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+    <record id="view_account_journal_form" model="ir.ui.view">
+        <field name="model">account.journal</field>
+        <field name="inherit_id" ref="account.view_account_journal_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//notebook" position="inside">
+                <page name="exact_online" string="Exact Online" attrs="{'invisible': [('sync_with_exact_online_available', '=', False), ('sync_from_exact_online_available', '=', False)]}">
+                    <group>
+                        <field name="sync_with_exact_online_available" invisible="1"/>
+                        <field name="sync_with_exact_online" attrs="{'invisible': [('sync_with_exact_online_available', '=', False)]}"/>
+                        <field name="sync_from_exact_online_available" invisible="1"/>
+                        <field name="sync_from_exact_online" attrs="{'invisible': [('sync_from_exact_online_available', '=', False)]}"/>
+                        <field name="last_sync_from_exact_online" attrs="{'invisible': [('sync_from_exact_online', '=', False)]}"/>
+                        <field name="exact_online_code"/>
+                    </group>
+                </page>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>

@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div class="row" style="padding: 4rem">
+        <div class="col">
+            <img src="images/logo_callista.png" alt="Logo Callista"/>
+            <div class="pull-right">
+                <div class="btn btn-default btn-lg" style="background-color: #CA9E67; color: white">
+                    <i class="fa fa-check"/> Community
+                </div>
+                <div class="btn btn-default btn-lg" style="background-color: #CA9E67; color: white">
+                    <i class="fa fa-check"/> Enterprise
+                </div>
+                <div class="btn btn-default btn-lg" style="background-color: #CA9E67; color: white">
+                    <i class="fa fa-check"/> Odoo.sh
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row" style="padding: 4rem">
+        <div class="col text-center" style="font-size: 1.5rem">
+            <h1 style="font-size: 3rem">Exact Online Connector</h1>
+            <hr style="margin-bottom: 2rem"/>
+            More than 400,000 businesses and accountants are using Exact Online as their 
+            cloud-based software to manage their numbers. Most of them use only the 
+            accounting part of this software solution to have a distinction between the 
+            financial management in Exact Online and the operational management in 
+            separate (cloud) systems like Odoo.
+        </div>
+    </div>
+
+    <div class="row" style="padding: 4rem">
+        <div class="col">
+            <h3 style="font-size: 2.5rem">
+                Sync contacts
+            </h3>
+            <div style="font-size: 1.5rem">
+                Here in this connector, contacts created in Odoo are automatically 
+                synchronized to Exact Online. Since their information, like address, 
+                vat number, payment terms, bank accounts, etc are relevant for the 
+                accounting, everything is sent automatically as soon as the contact gets
+                created.                
+            </div>
+            
+            <div style="margin-top: 2rem; font-size: 1.5rem">
+                <a href="https://www.youtube.com/watch?v=Ii1GrzEc7Dc" class="btn btn-default btn-lg" style="background-color: #CA9E67; color: white">
+                    <i class="fa fa-play mr-4"/> Play video
+                </a>
+            </div>
+        </div>
+        <div class="col text-center">
+            <div class="img-responsive">
+                <img src="images/sync_contacts.svg" style="max-height: 300px" alt="Sync contacts"/>    
+            </div>            
+        </div>
+    </div>
+
+    <div class="row" style="padding: 4rem">
+        <div class="col text-center">
+            <div class="img-responsive">
+                <img src="images/sync_invoices.svg" style="max-height: 400px" alt="Sync invoices"/>    
+            </div>            
+        </div>
+        <div class="col">
+            <h3 style="font-size: 2.5rem">
+                Sync invoices
+            </h3>
+            <div style="font-size: 1.5rem">
+                Using this powerful feature, you can sync your invoices as soon as they
+                get validated. No export of import files are necessary, every sales or 
+                purchase transaction is automatically sent to Exact Online to build upon.
+                Also invoice modifications are sent to Exact Online in case you need to 
+                do a fix immediately after validation.
+                <br/>
+                <br/>
+                The connector synchronises all necessary information with a link to the 
+                related contact (customer or supplier), a copy of the invoice document, 
+                and all other info regarding invoice line descriptions, quantities, 
+                prices, structured communication message, invoice date, due date, etc.                
+            </div>
+        </div>
+    </div>
+
+    <div class="row" style="padding: 4rem">
+        <div class="col">
+            <h3 style="font-size: 2.5rem">
+                Sync payments
+            </h3>
+            <div style="font-size: 1.5rem">
+                Using Exact Online accountants can reconciliate payments on invoices. 
+                To avoid double work, these payments can automatically be 
+                synchronized back to Odoo. This way, the Odoo users have an overview of 
+                the latest accounting information whereby immediately visible which 
+                amount is omitted and credit limitations regarding deliveries or new 
+                sales can directly be checked by the system. You as a company save time 
+                and enjoy a hard split of company roles whereby the accountant has 
+                insight in all the numbers using Exact Online and other employees can 
+                work in Odoo without disruption.
+            </div>
+        </div>
+        <div class="col text-center">
+            <div class="img-responsive">
+                <img src="images/sync_payments.svg" style="max-height: 400px" alt="Sync payments"/>    
+            </div>            
+        </div>
+    </div>
+    
+    <div class="row" style="padding: 4rem">
+        <div class="col" style="font-size: 1.25rem">
+            <div class="text-center">
+                <h2 style="font-size: 3rem">Features</h2>
+                <hr style="margin-bottom: 2rem"/>    
+            </div>            
+            <ul class="list-group">
+                <li class="list-group-item" style="margin: 1rem 0">
+                    <i class="fa fa-arrow-right mr-4" style="color: #CA9E67"/> Automatically sync contacts from Odoo to Exact Online
+                </li>
+                <li class="list-group-item" style="margin: 1rem 0">
+                    <i class="fa fa-arrow-right mr-4" style="color: #CA9E67"/> Automatically sync sales invoices and/or vendor bills from Odoo to Exact Online
+                </li>
+                <li class="list-group-item" style="margin: 1rem 0">
+                    <i class="fa fa-arrow-right mr-4" style="color: #CA9E67"/> Automatically sync payments from Exact Online to Odoo
+                </li>
+                <li class="list-group-item" style="margin: 1rem 0">
+                    <i class="fa fa-arrow-right mr-4" style="color: #CA9E67"/> Synchronisation queue where you can find all planned and synchronised information
+                </li>
+                <li class="list-group-item" style="margin: 1rem 0">
+                    <i class="fa fa-arrow-right mr-4" style="color: #CA9E67"/> Retry option to fix issues and synchronise directly after
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row" style="padding: 4rem">
+        <div class="col">
+            <ul class="nav nav-tabs justify-content-center" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <span class="nav-link" data-toggle="tab" href="#eom-setup">
+                        Setup
+                    </span>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <span class="nav-link active" data-toggle="tab" href="#eom-subscription">
+                        Subscription
+                    </span>                    
+                </li>
+                <li class="nav-item" role="presentation">                    
+                    <span class="nav-link" data-toggle="tab" href="#eom-faq">
+                        FAQ
+                    </span>
+                </li>
+                <li class="nav-item" role="presentation">                    
+                    <span class="nav-link" data-toggle="tab" href="#eom-support">
+                        Support
+                    </span>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane" id="eom-setup">
+                    <div style="margin-top: 2rem">
+                        <p>
+                            After installing the Exact Online Connector Module, start the
+                            synchronization with your Exact Online Administration. Please be sure
+                            to login to Exact Online in the same browser (different tab) as Odoo.
+                        </p>
+                        
+                        <img class="img-fluid pt-4 pb-4" src="images/setup_1.png" alt="Setup step 1"/>
+                        
+                        <p>Fill in the correct information about the Odoo database.</p>
+                        
+                        <img class="img-fluid pt-4 pb-4" src="images/setup_2.png" alt="Setup step 2"/>
+                        
+                        <p>Select your country and your company to link with Exact Online.</p>
+                        
+                        <img class="img-fluid pt-4 pb-4" src="images/setup_3.png" alt="Setup step 3"/>
+                        
+                        <p>Then select your Exact online administration.</p>
+                        
+                        <img class="img-fluid pt-4 pb-4" src="images/setup_4.png" alt="Setup step 4"/>
+                        
+                        <p>
+                            After this, you will get a safety and privacy form from Exact Online 
+                            where you give Odoo access to the administration of Exact Online.
+                        </p>
+                        <p>After completing this setting, the connection is set.</p>
+                        
+                        <img class="img-fluid pt-4 pb-4" src="images/setup_5.png" alt="Setup step 5"/>
+                        
+                        <p>You can close this tab in your browser.</p>
+                        <p>
+                            When the payment of the connector is complete, you will be able 
+                            to start the configuration of the initial synchronization.
+                        </p>
+                        <p>Go to the settings of your company and to the tab ‘Exact Online’.</p>
+                        
+                        <img class="img-fluid pt-4 pb-4" src="images/setup_6.png" alt="Setup step 6"/>
+
+                        <p>Click on ‘do the initial sync’.</p>
+                        
+                        <img class="img-fluid pt-4 pb-4" src="images/setup_7.png" alt="Setup step 7"/>
+                        
+                        <p>Follow the setup to sync everything.</p>
+                        <p>Example:</p> 
+                        <p>Configuring accounting journals.</p>
+                        
+                        <img class="img-fluid pt-4 pb-4" src="images/setup_8.png" alt="Setup step 8"/>
+
+                        <p>
+                            You will get a list of all accounting journals in Odoo and in 
+                            Exact online. The goal is to fill in the Exact online code to 
+                            the Odoo journals that have to be synced.
+                        </p>
+                        <p>
+                            You can do this by selecting the field ‘Exact online code’ 
+                            and fill in the correct code to the journals that are in Odoo
+                            but not in Exact online: They have no Exact Online code defined.
+                        </p>
+                        <p>
+                            The Exact online code, you can find in the same list, or in 
+                            Exact online itself.
+                        </p>
+                        <p>
+                            After filling in the correct codes, you can click on ‘Update 
+                            records in odoo (below). Then these codes will be saved on 
+                            the journal.
+                        </p>
+                        <p>
+                            If all journals in Odoo receive an Exact Online code, you can 
+                            move on to the next step. The correct journals will be 
+                            visible in the ‘Valid’ tab.
+                        </p>
+                        
+                        <img class="img-fluid pt-4 pb-4" src="images/setup_9.png" alt="Setup step 9"/>
+                        
+                        <p>
+                            If some journals do not have to be synchronized, you can 
+                            archive or delete them from Odoo.
+                        </p>
+                        <p>Do the same for the next steps.</p>
+                        <p>
+                            For the Partners, it is possible to initially synchronize the 
+                            partners from Odoo to Exact Online or the other way round.
+                        </p>
+                        
+                        <img class="img-fluid pt-4 pb-4" src="images/setup_10.png" alt="Setup step 10"/>
+                        
+                        <p>
+                            After finishing these steps, you can select the journals to 
+                            sync and also from which date (also in the past) the accounting 
+                            entries will be synchronized.
+                        </p>
+                        
+                        <img class="img-fluid pt-4" src="images/setup_11.png" alt="Setup step 11"/>
+                        <img class="img-fluid pb-4" src="images/setup_12.png" alt="Setup step 12"/>
+                        
+                        <p>
+                            If invoices from the past need to be synchronized, you can 
+                            choose to do this.
+                        </p>
+                        
+                        <img class="img-fluid pt-4 pb-4" src="images/setup_13.png" alt="Setup step 13"/>
+                        
+                        <p>
+                            If done, you are ready to use the connector. From now on all 
+                            partners and selected journals will be synchronized.
+                        </p>
+                        
+                        <img class="img-fluid pt-4 pb-4" src="images/setup_14.png" alt="Setup step 14"/>
+                    </div>                    
+                </div>
+                <div class="tab-pane active" id="eom-subscription">
+                    <div style="font-size: 1.25rem; margin-top: 2rem">
+                        <div class="alert alert-info" role="alert">
+                            The integration is related to a yearly subscription based 
+                            on the type of synchronization. 
+                        </div>
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th/>
+                                    <th class="text-center">Standard subscription</th>
+                                    <th class="text-center">Advanced subscription</th>
+                                </tr>                                
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th>Synchronisation of contacts</th>
+                                    <td class="text-center">yes</td>
+                                    <td class="text-center">yes</td>
+                                </tr>
+                                <tr>
+                                    <th>Synchronisation of invoices</th>
+                                    <td class="text-center">yes</td>
+                                    <td class="text-center">yes</td>
+                                </tr>
+                                <tr>
+                                    <th>Synchronisation of payments</th>
+                                    <td class="text-center">no</td>
+                                    <td class="text-center">yes</td>
+                                </tr>
+                                <tr>
+                                    <th>Price</th>
+                                    <td class="text-center">€ 588 / year</td>
+                                    <td class="text-center">€ 828 / year</td>
+                                </tr>
+                            </tbody>
+                            <p>
+                                The app can only be activated as soon the subscription 
+                                is paid. To start the subscription, please contact 
+                                <a href="mailto:sales@callista.be">sales@callista.be</a> 
+                                or leave a message using our website 
+                                <a href="https://www.callista.be">callista.be</a>.
+                            </p>
+                        </table>
+                    </div>
+                </div>
+                <div class="tab-pane" id="eom-faq">
+                    <div style="margin-top: 2rem">
+                        <ul class="list-group">
+                            <li class="list-group-item" style="font-size: 1.25rem; margin: 1rem 0">
+                                <p>
+                                    <i class="fa fa-question mr-4" style="color: #CA9E67"/> 
+                                    Is this app compatible with Odoo Community as well as Enterprise?
+                                </p>
+                                <p>
+                                    <i class="fa fa-check mr-4" style="color: #CA9E67"/> 
+                                    Yes, this app works perfectly with Odoo Enterprise 
+                                    (Odoo.sh & Premise) as well as Community.
+                                </p>                                
+                            </li>
+                            <li class="list-group-item" style="font-size: 1.25rem; margin: 1rem 0">
+                                <p>
+                                    <i class="fa fa-question mr-4" style="color: #CA9E67"/> 
+                                    I want some customization in this app. How can I request it?
+                                </p>
+                                <p>
+                                    <i class="fa fa-check mr-4" style="color: #CA9E67"/> 
+                                    Please contact us at <a href="mailto:sales@callista.be">sales@callista.be</a> 
+                                    to request customization or leave a message using our 
+                                    website <a href="https://www.callista.be">callista.be</a>.
+                                </p>                                
+                            </li>
+                            <li class="list-group-item" style="font-size: 1.25rem; margin: 1rem 0">
+                                <p>
+                                    <i class="fa fa-question mr-4" style="color: #CA9E67"/> 
+                                    Is this app free?
+                                </p>
+                                <p>
+                                    <i class="fa fa-times mr-4" style="color: #CA9E67"/> 
+                                    No, you have to pay for a subscription. There are two 
+                                    types of subscriptions. With the standard subscription, 
+                                    contacts and invoices are synchronized with Exact Online. 
+                                    With the advanced subscription also payments are 
+                                    synchronized back to Odoo.<br/>
+                                    The subscriptions are valid for any available version 
+                                    of Odoo.
+                                </p>                                
+                            </li>
+                            <li class="list-group-item" style="font-size: 1.25rem; margin: 1rem 0">
+                                <p>
+                                    <i class="fa fa-question mr-4" style="color: #CA9E67"/> 
+                                    How do I set up this synchronisation?
+                                </p>
+                                <p>
+                                    <i class="fa fa-check mr-4" style="color: #CA9E67"/> 
+                                    Using a wizard you can easily set up the synchronisation. 
+                                    There is a manual available to support every step in 
+                                    the configuration.
+                                </p>                                
+                            </li>
+                            <li class="list-group-item" style="font-size: 1.25rem; margin: 1rem 0">
+                                <p>
+                                    <i class="fa fa-question mr-4" style="color: #CA9E67"/> 
+                                    Do I get free updates?
+                                </p>
+                                <p>
+                                    <i class="fa fa-check mr-4" style="color: #CA9E67"/>
+                                    Yes, you will get free updates.
+                                </p>                                
+                            </li>
+                            <li class="list-group-item" style="font-size: 1.25rem; margin: 1rem 0">
+                                <p>
+                                    <i class="fa fa-question mr-4" style="color: #CA9E67"/> 
+                                    Is this application compatible with odoo.com (Odoo Online)?
+                                </p>
+                                <p>
+                                    <i class="fa fa-times mr-4" style="color: #CA9E67"/>
+                                    No, this application is not compatible with odoo.com (Odoo Online).
+                                </p>                                
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tab-pane" id="eom-support">
+                    <div style="margin-top: 2rem">
+                        <p>Please mail us for support on <a href="mailto:support@callista.be">support@callista.be</a>.</p>
+                        <h3>Multi-language</h3>
+                        <p>
+                            We have translations available for English and Dutch. If you 
+                            want to add other languages you can contact us on 
+                            <a href="mailto:support@callista.be">support@callista.be</a>.
+                        </p>
+                        <div>
+                            <img src="images/nl.png" alt="Available in Dutch" style="max-width: 8rem; max-height: 4rem"/>
+                            <img src="images/gb.png" alt="Available in English" style="max-width: 8rem; max-height: 4rem"/>
+                        </div>
+                        <div style="font-size: 0.25rem">
+                            <a href="https://www.flaticon.com/free-icons/united-kingdom" title="united kingdom icons">United kingdom icons created by Freepik - Flaticon</a><br/>
+                            <a href="https://www.flaticon.com/free-icons/netherlands" title="netherlands icons">Netherlands icons created by Freepik - Flaticon</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

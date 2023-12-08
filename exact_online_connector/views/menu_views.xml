@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <menuitem id="menu_exact_online"
+              web_icon="exact_online_connector,static/description/icon.png"
+              name="Exact Online Connector"/>
+
+</odoo>
